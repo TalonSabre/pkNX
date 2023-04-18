@@ -95,6 +95,7 @@ public class GameDumperSWSH
             ZukanA = ROM.GetStrings(TextName.PokedexEntry1),
             ZukanB = ROM.GetStrings(TextName.PokedexEntry2),
             TMIndexes = Legal.TMHM_SWSH,
+            TRIndexes = Legal.TR_SWSH,
         };
 
         var result = pd.Dump(pt);
