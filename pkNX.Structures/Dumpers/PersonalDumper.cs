@@ -163,7 +163,7 @@ public class PersonalDumper
         lines.Add("TRs:");
         for (int i = 0; i < 100; i++)
         {
-            if (!tmhm[i])
+            if (!tr[i])
                 continue;
             var move = TRIndexes[i];
             lines.Add($"- [TR{i:00}] {Moves[move]}");
